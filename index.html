@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>space obstacle course</title>
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Beastly&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="main.js"></script>
+
+</head>
+<body onload="startGame()">
+<center>
+  <div id="output"></div>
+  <br>
+<div style="text-align:center;width:480px;" id="button_div">
+  <button class="move_btn" onmousedown="moveup();" onmouseup="clearmove()" ontouchstart="moveup()">UP</button>
+  <button class="move_btn" onmousedown="movedown()" onmouseup="clearmove()" ontouchstart="movedown()">DOWN</button><br><br>
+  <p>You can also use arrow keys to move</p>
+  <div id= "output1"></div>
+</div>
+
+
+</center>
+</body>
+</html>

@@ -1,0 +1,37 @@
+canvas {
+  border:1px solid #d3d3d3;
+  background-color: transparent;
+  margin-top: 100px;
+  border-style: ridge;
+  border-width: 2px;
+}
+
+body{
+  text-align: center;
+  background-image: url(space.jpg);
+  background-size: cover;
+}
+.move_btn{
+  border-radius: 10px;
+  margin: 10px;
+  color: greenyellow;
+  background-color: indigo;
+  font-weight: 900;
+}
+
+#Boost_btn{
+  font-family: 'Rubik Beastly', cursive;
+  color: orangered;
+  background-color: transparent;
+  border-style: hidden;
+}
+
+#restart_btn{
+  background-color: turquoise;
+  color: darkblue;
+  border-radius: 20px;
+  font-size: large;
+}
+p{
+  color: aliceblue;
+}
